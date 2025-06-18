@@ -11,11 +11,13 @@ while chance < 6:
 	elif b < a : 
 		print("YOUR GUESS IS LOW TRY AGAIN")
 		chance+= 1 	
-	elif b > a :
+	else :
 		print("YOUR GUESS IS HIGH TRY AGAIN")
 		chance+=1	
-	else :
-		print("YOU LOST THE GAME")
+
+	print("YOU LOST THE GAME")
+	
+print("GAME COMPLETED) 		
 
 
 
