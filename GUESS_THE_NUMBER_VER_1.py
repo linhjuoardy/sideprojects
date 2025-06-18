@@ -1,7 +1,6 @@
 import random
 a = random.randint(1,100)
-c = "PICK ONE NUMBER BETWEEN 1-100\n"
-print(c)
+print("PICK ONE NUMBER BETWEEN 1-100\n")
 chance = 1
 while chance < 6: 
 	print(f"TRY NO. - {chance}")
